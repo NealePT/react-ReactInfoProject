@@ -1,5 +1,6 @@
-const page = (
-  <div>
+function temporaryName() {
+  return (
+    <div>
     <h1>Fun facts about React</h1>
     <ul>
       <li>Was first released in 2013</li>
@@ -9,6 +10,7 @@ const page = (
       <li>Powers thousands of enterprise apps, including mobile apps</li>
     </ul>
   </div>
-)
+  )
+}
 
-ReactDOM.render(page, document.getElementById("root"))
+ReactDOM.render(temporaryName(), document.getElementById("root"))
